@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function Canvas() {
   return (
-    <section className="relative bg-blue overflow-hidden min-h-[80vh] lg:h-screen lg:sticky lg:top-0">
+    <section className="relative bg-blue overflow-hidden min-h-[90vh] order-1 lg:order-2 lg:h-screen lg:sticky lg:top-0">
       {/* Top-right meta row */}
       <div className="absolute top-0 inset-x-0 z-30 flex items-start justify-end px-5 md:px-7 pt-4 pointer-events-none">
         <div className="pointer-events-auto flex items-center gap-3 text-bone">

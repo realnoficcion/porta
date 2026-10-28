@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       {/* Shell: sidebar + canvas (desktop) / stacked (mobile) */}
-      <div className="grid grid-cols-1 lg:grid-cols-[36%_64%] bg-blue border-b-[3px] border-bone">
+      <div className="flex flex-col lg:grid lg:grid-cols-[36%_64%] bg-blue border-b-[3px] border-bone">
         <Sidebar />
         <Canvas />
       </div>

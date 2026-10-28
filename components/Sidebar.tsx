@@ -18,7 +18,7 @@ const secondaryItems = [
 
 export function Sidebar() {
   return (
-    <aside className="relative bg-blue text-bone border-t-[3px] border-bone lg:border-t-0 lg:border-r-[3px] order-2 lg:order-1 lg:h-screen lg:sticky lg:top-0 lg:overflow-y-auto">
+    <aside className="relative bg-blue text-bone border-b-[3px] border-bone lg:border-b-0 lg:border-r-[3px] lg:h-screen lg:sticky lg:top-0 lg:overflow-y-auto">
       <div className="flex flex-col h-full">
         {/* Primary nav */}
         <nav aria-label="Principal" className="w-full">

@@ -26,11 +26,11 @@ export function Sidebar() {
             <Link
               key={item.href}
               href={item.href}
-              className="nav-row group px-4 md:px-6 py-[0.6vw] flex items-baseline text-bone transition-transform relative"
+              className="nav-row group px-4 md:px-6 py-1 md:py-[0.6vw] flex items-baseline text-bone transition-transform relative"
             >
               <span
                 className="uppercase title-huge relative inline-block"
-                style={{ fontSize: "clamp(2rem, 4.2vw, 5rem)" }}
+                style={{ fontSize: "clamp(1.6rem, 4.2vw, 5rem)" }}
               >
                 <span className={item.logo ? "invisible" : ""}>{item.label}</span>
                 {item.logo && (
@@ -67,11 +67,11 @@ export function Sidebar() {
             <Link
               key={item.href}
               href={item.href}
-              className="nav-row px-4 md:px-6 py-[0.5vw] flex items-baseline text-bone transition-transform"
+              className="nav-row px-4 md:px-6 py-1 md:py-[0.5vw] flex items-baseline text-bone transition-transform"
             >
               <span
                 className="uppercase title-huge"
-                style={{ fontSize: "clamp(1.5rem, 3vw, 3.6rem)" }}
+                style={{ fontSize: "clamp(1.3rem, 3vw, 3.6rem)" }}
               >
                 {item.label}
               </span>

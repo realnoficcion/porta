@@ -25,7 +25,7 @@ export function Footer() {
       </div>
 
       <div className="border-t-2 border-bone px-5 md:px-7 py-5 flex flex-wrap items-center justify-between gap-4 font-mono text-[10px] uppercase tracking-[0.3em]">
-        <span>© {new Date().getFullYear()} PORTA · São Paulo</span>
+        <span>© 2026 PORTA · São Paulo</span>
         <span>versão 006</span>
       </div>
     </footer>
